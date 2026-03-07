@@ -5,7 +5,7 @@ import time
 
 def evolucionar_con_conteo_total(frase_objetivo):
     objetivo = frase_objetivo.upper()
-    # Añadimos números y signos de puntuación porque tu frase los tiene
+    # números y signos de puntuación porque tu frase los tiene
     caracteres_posibles = string.ascii_uppercase + string.digits + string.punctuation + " "
 
     # Estado inicial
